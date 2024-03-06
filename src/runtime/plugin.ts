@@ -1,5 +1,6 @@
 import { defineNuxtPlugin } from "#app";
 import type { ModuleOptions } from "../module";
+import { useRuntimeConfig, inject, useRouter, useHead } from "#imports";
 
 const logSyle =
   "background: #2E495E;border-radius: 0.5em;color: white;font-weight: bold;padding: 2px 0.5em;";
